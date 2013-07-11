@@ -175,6 +175,10 @@
 		<finalName>ligGwtFile</finalName>
 	</build>
 	<distributionManagement>
-		<downloadUrl>http://www.vectomatic.org/libs/lib-gwt-file</downloadUrl>
+		<snapshotRepository>
+			<id>aa-compilsrv</id>
+			<name>aa-compilsrv-snapshots</name>
+			<url>http://192.168.0.170:8081/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
 	</distributionManagement>
 </project>
